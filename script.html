@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <span id="score"></span>
+    
+    <button id="myButton" style="text-align: center;">Нажми на меня</button>
+    <script>
+       
+        
+
+        const button = document.getElementById('myButton')
+        button.addEventListener('click', function() {
+            let count = 0;
+            document.body.innerHTML = count;
+            while (i < 5) {
+                count += 1;
+                console.log(count)
+            };
+        })
+    </script>
+</body>
+</html>

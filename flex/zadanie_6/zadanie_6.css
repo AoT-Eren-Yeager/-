@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    aspect-ratio: 1 / 1;
+    
+}
+
+
+.grid-item {
+    display: flex;
+    
+    
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+
+    
+}
+
+
+@media (min-width: 1024px) { 
+    .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .grid-item {
+
+        width: 50%;
+        box-sizing: border-box;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .grid-container {
+        display: flex;
+        flw
+    }
+}

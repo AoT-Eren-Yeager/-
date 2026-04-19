@@ -1,0 +1,50 @@
+.product {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: stretch;
+
+}
+
+.product > section {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+}
+
+
+.product span {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product button {
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(14, 14, 233);
+    margin-top: 10px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+
+
+.product img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
