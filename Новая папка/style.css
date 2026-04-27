@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin-top: 50px;
+    background-color: rgb(199, 16, 16);
+
+}
+
+.ramka {
+    padding: 40px;
+    width: 450px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.google, .apple {
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px 90px 10px 90px;
+    border-radius: 8px;
+    white-space: nowrap;
+    margin-bottom: 20px;
+
+    
+}
+
+.google img {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    
+}
+
+.google span {
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+.google:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+
+
+.apple img {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+
+.apple span {
+    white-space: nowrap;
+    margin-left: 5px;
+}
+
+.apple:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.terms {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.terms label span{
+    display: inline-block;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.terms input[type="checkbox"]  {
+   margin-right: 10px;
+    transform: scale(1.4);
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.line{
+    display: inline-block;
+    margin-bottom: 15px;
+    flex-grow: 1;
+    height: 2px;
+    background-color: rgb(192, 192, 192);
+}
+
+.text{
+    color: rgb(192, 192, 192);
+    margin-bottom: 15px;
+}
+
+
+.terms label:focus:hover {
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245);
+}
+
+
+input:focus::placeholder {
+    opacity: 0;
+    transform: translateY(-50px);
+}
+
+input::placeholder {
+    
+    transition: all 1.0s ease;
+    
+}
+
+
+.form-group input:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+
+.creat-account {
+    width: 100%;
+}
+
+.creat-account button{
+    width: 100%;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.creat-account button:hover {
+    background-color: rgb(60, 60, 60);
+  
+}

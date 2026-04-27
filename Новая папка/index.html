@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Załóż konto</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form method="post">
+        <div class="ramka">
+            <h1>Załóż konto</h1>
+            <button type="button" class="google">
+            <img src="https://hackaday.com/wp-content/uploads/2016/08/google-g-logo.png" alt="">
+                <span>Kontynuuj z kontem Google</span>
+            </button>
+            
+            <button type="button" class="apple">
+                <img src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-index-content-uploads-10.png" alt="" >
+                <span>Kontynuuj z kontem Apple</span>
+            </button>
+
+            <div class="line-container">
+                <span class="line"></span>
+                <span class="text">lub</span>
+                <span class="line"></span>
+            </div>
+    
+            
+            
+
+
+            <div class="form-group">
+                
+                <input type="text" name="imię" placeholder="Imię (wymagane)" required>
+                
+                <input type="text" name="nazwisko" placeholder="Nazwisko (wymagane)" required>
+                <input type="email" name="email" placeholder="E-mail (wymagane)" required>
+                <input type="password" name="hasło" placeholder="Hasło (wymagane)" required>
+                
+            </div>
+            
+          
+
+            <div class="terms">
+
+                    
+                <label>
+                    <input type="checkbox" name="regulamin" value="accepted" id="select_all">Zaznacz wszystkie 
+                </label>
+                        
+               
+                    
+                    
+                <label>
+                    <input type="checkbox" class="item-checkbox" name="newsletter"    value="yes">Akceptuję regulamin sklepu. <span style="color: red;">(wymagane)</span>
+                </label>
+                        
+                <label>
+                    <input type="checkbox" class="item-checkbox" name="newsletter_neonet" value="yes">Chcę otrzymywać newsletter. <a href="#" style="color: black;">Więcej</a>
+                </label>
+                        
+                <label>
+                    <input type="checkbox" class="item-checkbox" name="personalized_offers" value="yes">Chcę otrzymywać newsletter od Neonet. <a href="#" style="color: black;">Więcej</a>
+                </label>
+
+                <label>
+                    <input type="checkbox" class="item-checkbox" name="hi" value="all">Chcę otrzymywać ofertę dopasowaną do <br> moich potrzeb <a href="#" style="color: black;">Więcej</a>
+                </label>    
+
+                
+            </div>
+
+            <div class="creat-account">
+                <button>Załóż konto</button>
+            </div>
+            
+        </div>
+    </form>
+
+<script src="script.js"></script>
+</body>
+</html>
